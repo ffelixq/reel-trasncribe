@@ -109,7 +109,7 @@ For local Worker development, copy `worker/.dev.vars.example` to `worker/.dev.va
 3. Connect your Android phone with USB debugging enabled (or use an emulator).
 4. Run the `app` configuration.
 
-The project targets Android API 37 and requires JDK 17.
+The project targets Android API 36 and requires JDK 17.
 
 ### GitHub Actions APK
 
