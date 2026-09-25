@@ -359,12 +359,7 @@ Please explain:
 - similar or competing projects worth comparing
 
 Original video:
-""".trimIndent() + "
-" + record.sourceUrl + "
-
-TRANSCRIPT:
-
-" + record.transcript
+""".trimIndent() + "\n" + record.sourceUrl + "\n\nTRANSCRIPT:\n\n" + record.transcript
 
 private fun copyToClipboard(context: Context, label: String, text: String) {
     val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
